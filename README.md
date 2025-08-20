@@ -42,14 +42,14 @@ It combines **police crash data**, **GIS information**, and **advanced econometr
    cd Modeling_Injury_Severity
 
 2. Create and activate a virtual environment (recommended):
- ```bash
-  python -m venv venv
-  source venv/bin/activate   # on Linux/Mac
-  venv\Scripts\activate      # on Windows
+   ```bash
+    python -m venv venv
+    source venv/bin/activate   # on Linux/Mac
+    venv\Scripts\activate      # on Windows
 
 
 3. Install dependencies:
-  ```bash
- pip install -r requirements.txt
+    ```bash
+    pip install -r requirements.txt
 
 
