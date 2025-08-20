@@ -33,24 +33,6 @@ It combines **police crash data**, **GIS information**, and **advanced econometr
 - [README.md](README.md)
 
 
-
----
-
-## ⚙️ Methods
-- **Data Sources**: Police-reported crashes (Paris & Lyon), geospatial data (road infrastructure, traffic environment).  
-- **Models**:  
-  - Random Parameters Logit (Mixed Logit)  
-  - Ordered Probit  
-  - Robustness checks and out-of-sample validation  
-- **Software**: Python (pandas, statsmodels, scikit-learn, geopandas), LaTeX.
-
----
-
-## 📊 Key Contributions
-- First comparative study of injury severity for MMVs in two French metropolitan areas.  
-- Incorporation of **infrastructure and spatial variables** alongside crash-level factors.  
-- Evidence-based insights for **urban safety policies** and **infrastructure design**.
-
 ---
 
 ## 🚀 Getting Started
@@ -58,3 +40,15 @@ It combines **police crash data**, **GIS information**, and **advanced econometr
    ```bash
    git clone https://github.com/martin1207/Modeling_Injury_Severity.git
    cd Modeling_Injury_Severity
+
+2. Create and activate a virtual environment (recommended):
+ ```bash
+  python -m venv venv
+  source venv/bin/activate   # on Linux/Mac
+  venv\Scripts\activate      # on Windows
+
+3. Install dependencies:
+  ```bash
+  pip install -r requirements.txt
+
+
