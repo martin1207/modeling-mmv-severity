@@ -47,8 +47,9 @@ It combines **police crash data**, **GIS information**, and **advanced econometr
   source venv/bin/activate   # on Linux/Mac
   venv\Scripts\activate      # on Windows
 
+
 3. Install dependencies:
   ```bash
-  pip install -r requirements.txt
+ pip install -r requirements.txt
 
 
