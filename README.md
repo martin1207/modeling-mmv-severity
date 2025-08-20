@@ -38,8 +38,8 @@ It combines **police crash data**, **GIS information**, and **advanced econometr
 ## 🚀 Getting Started
 1. Clone this repository:
    ```bash
-   git clone https://github.com/martin1207/Modeling_Injury_Severity.git
-   cd Modeling_Injury_Severity
+   git clone https://github.com/martin1207/modeling-mmv-severity.git
+   cd modeling-mmv-severity
 
 2. Create and activate a virtual environment (recommended):
    ```bash
