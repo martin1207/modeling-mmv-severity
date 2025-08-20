@@ -1,4 +1,4 @@
-# Modeling the Injury Severity of Micro-Mobility Vehicle Riders
+# Modeling the Injury Severity of Micro-Mobility Vehicle Riders 🛴🚲💥
 
 This repository contains the code, data processing scripts, and materials related to the article:
 
