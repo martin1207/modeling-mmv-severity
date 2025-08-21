@@ -7,13 +7,7 @@ by Martin Dejaeghere, 2025.
 
 ---
 
-## 📖 Project Overview
-The study investigates the determinants of crash injury severity for riders of micro-mobility vehicles (MMVs), such as **e-scooters** and **e-bikes**, in two major French cities: **Paris** and **Lyon**.  
-It combines **police crash data**, **GIS information**, and **advanced econometric models** to identify factors influencing the severity of injuries.
-
----
-
-## 📂 Repository Structure
+## Repository Structure
 
 - [data/](data/)
   - [streets_lyon.geojson](data/streets_lyon.geojson)
@@ -35,7 +29,7 @@ It combines **police crash data**, **GIS information**, and **advanced econometr
 
 ---
 
-## 🚀 Getting Started
+## How to use the code
 1. Clone this repository:
    ```bash
    git clone https://github.com/martin1207/modeling-mmv-severity.git
