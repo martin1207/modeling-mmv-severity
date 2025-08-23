@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 # OS / éditeurs
 .DS_Store
 .vscode/
@@ -18,6 +17,3 @@ Estimation_results/*.pickle
 *.gif
 *.qmd
 *.html
-=======
-newenv/
->>>>>>> Stashed changes
