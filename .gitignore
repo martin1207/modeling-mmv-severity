@@ -1,10 +1,19 @@
+# OS / éditeurs
 .DS_Store
 .vscode/
 
-# Données lourdes / dérivées (gardées en local, pas dans Git)
+# Données / artefacts volumineux (ne pas versionner)
 data/*.geojson
 *.gpkg
 *.gpkg-*
 *.qgz
 *.pickle
 *.iter
+Estimation_results/*.html
+Estimation_results/*.pickle
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.qmd
+*.html
