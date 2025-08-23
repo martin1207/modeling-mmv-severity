@@ -1,2 +1,10 @@
-newenv/
+.DS_Store
+.vscode/
+
+# Données lourdes / dérivées (gardées en local, pas dans Git)
 data/*.geojson
+*.gpkg
+*.gpkg-*
+*.qgz
+*.pickle
+*.iter
