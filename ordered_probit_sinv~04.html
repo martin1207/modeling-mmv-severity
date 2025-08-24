@@ -1,0 +1,107 @@
+<html>
+<head>
+<script src="http://transp-or.epfl.ch/biogeme/sorttable.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ordered_probit_sinv - Report from biogeme 3.2.14 [2025-08-20]</title>
+<meta name="keywords" content="biogeme, discrete choice, random utility">
+<meta name="description" content="Report from biogeme 3.2.14 [2025-08-20]">
+<meta name="author" content="{bv.author}">
+<style type=text/css>
+.biostyle
+	{font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	font-family:Courier;}
+.boundstyle
+	{font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	font-family:Courier;
+        color:red}
+</style>
+</head>
+<body bgcolor="#ffffff">
+<p>biogeme 3.2.14 [2025-08-20]</p>
+<p><a href="https://www.python.org/" target="_blank">Python</a> package</p>
+<p>Home page: <a href="http://biogeme.epfl.ch" target="_blank">http://biogeme.epfl.ch</a></p>
+<p>Submit questions to <a href="https://groups.google.com/d/forum/biogeme" target="_blank">https://groups.google.com/d/forum/biogeme</a></p>
+<p><a href="http://people.epfl.ch/michel.bierlaire">Michel Bierlaire</a>, <a href="http://transp-or.epfl.ch">Transport and Mobility Laboratory</a>, <a href="http://www.epfl.ch">Ecole Polytechnique F&#233;d&#233;rale de Lausanne (EPFL)</a></p>
+<p>This file has automatically been generated on 2025-08-20 10:39:51.259382</p>
+<table>
+<tr class=biostyle><td align=right><strong>Report file</strong>:	</td><td>ordered_probit_sinv~04.html</td></tr>
+<tr class=biostyle><td align=right><strong>Database name</strong>:	</td><td>database_alone</td></tr>
+</table>
+<h1>Estimation report</h1>
+<table border="0">
+<tr class=biostyle><td align=right ><strong>Number of estimated parameters</strong>: </td> <td>8</td></tr>
+<tr class=biostyle><td align=right ><strong>Sample size</strong>: </td> <td>2212</td></tr>
+<tr class=biostyle><td align=right ><strong>Excluded observations</strong>: </td> <td>0</td></tr>
+<tr class=biostyle><td align=right ><strong>Init log likelihood</strong>: </td> <td>-253.1925</td></tr>
+<tr class=biostyle><td align=right ><strong>Final log likelihood</strong>: </td> <td>-229.8928</td></tr>
+<tr class=biostyle><td align=right ><strong>Likelihood ratio test for the init. model</strong>: </td> <td>46.59943</td></tr>
+<tr class=biostyle><td align=right ><strong>Rho-square for the init. model</strong>: </td> <td>0.092</td></tr>
+<tr class=biostyle><td align=right ><strong>Rho-square-bar for the init. model</strong>: </td> <td>0.0604</td></tr>
+<tr class=biostyle><td align=right ><strong>Akaike Information Criterion</strong>: </td> <td>475.7856</td></tr>
+<tr class=biostyle><td align=right ><strong>Bayesian Information Criterion</strong>: </td> <td>521.3988</td></tr>
+<tr class=biostyle><td align=right ><strong>Final gradient norm</strong>: </td> <td>1.4676E-01</td></tr>
+<tr class=biostyle><td align=right ><strong>Number of draws</strong>: </td> <td>10000</td></tr>
+<tr class=biostyle><td align=right ><strong>Draws generation time</strong>: </td> <td>0:00:19.209233</td></tr>
+<tr class=biostyle><td align=right ><strong>Types of draws</strong>: </td> <td>['Beta_passengers_2_random_mixed: NORMAL']</td></tr>
+<tr class=biostyle><td align=right ><strong>Nbr of threads</strong>: </td> <td>11</td></tr>
+<tr class=biostyle><td align=right ><strong>Cause of termination</strong>: </td> <td>Relative change = 8.46e-07 <= 1e-05</td></tr>
+<tr class=biostyle><td align=right ><strong>Number of function evaluations</strong>: </td> <td>51</td></tr>
+<tr class=biostyle><td align=right ><strong>Number of gradient evaluations</strong>: </td> <td>19</td></tr>
+<tr class=biostyle><td align=right ><strong>Number of hessian evaluations</strong>: </td> <td>0</td></tr>
+<tr class=biostyle><td align=right ><strong>Algorithm</strong>: </td> <td>BFGS with trust region for simple bound constraints</td></tr>
+<tr class=biostyle><td align=right ><strong>Number of iterations</strong>: </td> <td>50</td></tr>
+<tr class=biostyle><td align=right ><strong>Proportion of Hessian calculation</strong>: </td> <td>0/18 = 0.0%</td></tr>
+<tr class=biostyle><td align=right ><strong>Optimization time</strong>: </td> <td>0:21:49.629569</td></tr>
+</table>
+<h1>Estimated parameters</h1>
+<table border="1">
+<tr class=biostyle><th>Name</th><th>Value</th><th>Rob. Std err</th><th>Rob. t-test</th><th>Rob. p-value</th></tr>
+<tr class=biostyle><td>Beta slope 1</td><td>0.312</td><td>0.173</td><td>1.81</td><td>0.0707</td></tr>
+<tr class=biostyle><td>Beta_age</td><td>0.0102</td><td>0.00385</td><td>2.65</td><td>0.0081</td></tr>
+<tr class=biostyle><td>Beta_helmet_ebike</td><td>-0.325</td><td>0.173</td><td>-1.87</td><td>0.0612</td></tr>
+<tr class=biostyle><td>Beta_passengers 4</td><td>-2.36</td><td>0.251</td><td>-9.38</td><td>0</td></tr>
+<tr class=biostyle><td>Beta_passengers_2_mean</td><td>-1.57</td><td>0.334</td><td>-4.7</td><td>2.67e-06</td></tr>
+<tr class=biostyle><td>Beta_passengers_2_s</td><td>-1.56</td><td>0.314</td><td>-4.96</td><td>7.08e-07</td></tr>
+<tr class=biostyle><td>tau_1</td><td>-2.59</td><td>0.22</td><td>-11.8</td><td>0</td></tr>
+<tr class=biostyle><td>tau_1_diff_2</td><td>5.36</td><td>0.211</td><td>25.4</td><td>0</td></tr>
+</table>
+<h2>Correlation of coefficients</h2>
+<table border="1">
+<tr class=biostyle><th>Coefficient1</th><th>Coefficient2</th><th>Covariance</th><th>Correlation</th><th>t-test</th><th>p-value</th><th>Rob. cov.</th><th>Rob. corr.</th><th>Rob. t-test</th><th>Rob. p-value</th></tr>
+<tr class=biostyle><td>Beta_age</td><td>Beta slope 1</td><td>1.66e-05</td><td>0.0251</td><td>-1.9</td><td>0.0573</td><td>0.000143</td><td>0.215</td><td>-1.76</td><td>0.079</td></tr>
+<tr class=biostyle><td>Beta_helmet_ebike</td><td>Beta slope 1</td><td>-0.00333</td><td>-0.0549</td><td>-1.51</td><td>0.131</td><td>-0.00556</td><td>-0.186</td><td>-2.39</td><td>0.0169</td></tr>
+<tr class=biostyle><td>Beta_helmet_ebike</td><td>Beta_age</td><td>-9.57e-05</td><td>-0.0604</td><td>-0.877</td><td>0.381</td><td>-0.000149</td><td>-0.223</td><td>-1.92</td><td>0.0547</td></tr>
+<tr class=biostyle><td>Beta_passengers 4</td><td>Beta slope 1</td><td>-0.00143</td><td>-0.0368</td><td>-9</td><td>0</td><td>-0.0106</td><td>-0.244</td><td>-7.9</td><td>2.66e-15</td></tr>
+<tr class=biostyle><td>Beta_passengers 4</td><td>Beta_age</td><td>4.82e-05</td><td>0.0475</td><td>-9.69</td><td>0</td><td>8.15e-05</td><td>0.0844</td><td>-9.44</td><td>0</td></tr>
+<tr class=biostyle><td>Beta_passengers 4</td><td>Beta_helmet_ebike</td><td>0.00491</td><td>0.0526</td><td>-4.6</td><td>4.32e-06</td><td>0.00933</td><td>0.214</td><td>-7.45</td><td>9.55e-14</td></tr>
+<tr class=biostyle><td>Beta_passengers_2_mean</td><td>Beta slope 1</td><td>-0.00162</td><td>-0.0303</td><td>-4.99</td><td>6.06e-07</td><td>-0.00203</td><td>-0.0352</td><td>-4.93</td><td>8.22e-07</td></tr>
+<tr class=biostyle><td>Beta_passengers_2_mean</td><td>Beta_age</td><td>0.000279</td><td>0.199</td><td>-4.7</td><td>2.66e-06</td><td>0.00021</td><td>0.164</td><td>-4.73</td><td>2.2e-06</td></tr>
+<tr class=biostyle><td>Beta_passengers_2_mean</td><td>Beta_helmet_ebike</td><td>0.00258</td><td>0.0201</td><td>-2.47</td><td>0.0137</td><td>0.00891</td><td>0.154</td><td>-3.53</td><td>0.00041</td></tr>
+<tr class=biostyle><td>Beta_passengers_2_mean</td><td>Beta_passengers 4</td><td>0.0251</td><td>0.305</td><td>2.25</td><td>0.0242</td><td>0.0279</td><td>0.333</td><td>2.29</td><td>0.0218</td></tr>
+<tr class=biostyle><td>Beta_passengers_2_s</td><td>Beta slope 1</td><td>0.000146</td><td>0.00279</td><td>-5.11</td><td>3.29e-07</td><td>-0.0095</td><td>-0.175</td><td>-4.87</td><td>1.13e-06</td></tr>
+<tr class=biostyle><td>Beta_passengers_2_s</td><td>Beta_age</td><td>-0.000119</td><td>-0.0867</td><td>-4.74</td><td>2.13e-06</td><td>-7.36e-05</td><td>-0.061</td><td>-4.99</td><td>6.11e-07</td></tr>
+<tr class=biostyle><td>Beta_passengers_2_s</td><td>Beta_helmet_ebike</td><td>0.000297</td><td>0.00236</td><td>-2.44</td><td>0.0145</td><td>0.00338</td><td>0.0622</td><td>-3.53</td><td>0.000417</td></tr>
+<tr class=biostyle><td>Beta_passengers_2_s</td><td>Beta_passengers 4</td><td>0.0126</td><td>0.156</td><td>2.11</td><td>0.0344</td><td>0.0128</td><td>0.163</td><td>2.17</td><td>0.0297</td></tr>
+<tr class=biostyle><td>Beta_passengers_2_s</td><td>Beta_passengers_2_mean</td><td>-0.0193</td><td>-0.173</td><td>0.0221</td><td>0.982</td><td>-0.0122</td><td>-0.116</td><td>0.0233</td><td>0.981</td></tr>
+<tr class=biostyle><td>tau_1</td><td>Beta slope 1</td><td>0.00294</td><td>0.0824</td><td>-11</td><td>0</td><td>-0.000793</td><td>-0.0209</td><td>-10.3</td><td>0</td></tr>
+<tr class=biostyle><td>tau_1</td><td>Beta_age</td><td>0.000554</td><td>0.596</td><td>-11.7</td><td>0</td><td>0.000483</td><td>0.571</td><td>-12</td><td>0</td></tr>
+<tr class=biostyle><td>tau_1</td><td>Beta_helmet_ebike</td><td>0.00588</td><td>0.0687</td><td>-5.29</td><td>1.23e-07</td><td>0.00704</td><td>0.185</td><td>-8.95</td><td>0</td></tr>
+<tr class=biostyle><td>tau_1</td><td>Beta_passengers 4</td><td>0.0333</td><td>0.608</td><td>-1.14</td><td>0.256</td><td>0.0355</td><td>0.643</td><td>-1.18</td><td>0.239</td></tr>
+<tr class=biostyle><td>tau_1</td><td>Beta_passengers_2_mean</td><td>0.0332</td><td>0.439</td><td>-3.29</td><td>0.000995</td><td>0.0332</td><td>0.452</td><td>-3.36</td><td>0.000779</td></tr>
+<tr class=biostyle><td>tau_1</td><td>Beta_passengers_2_s</td><td>0.00909</td><td>0.123</td><td>-2.77</td><td>0.00568</td><td>0.00965</td><td>0.14</td><td>-2.91</td><td>0.00364</td></tr>
+<tr class=biostyle><td>tau_1_diff_2</td><td>Beta slope 1</td><td>0.0042</td><td>0.13</td><td>20.9</td><td>0</td><td>0.0147</td><td>0.404</td><td>23.8</td><td>0</td></tr>
+<tr class=biostyle><td>tau_1_diff_2</td><td>Beta_age</td><td>0.000216</td><td>0.256</td><td>26.4</td><td>0</td><td>0.00017</td><td>0.21</td><td>25.4</td><td>0</td></tr>
+<tr class=biostyle><td>tau_1_diff_2</td><td>Beta_helmet_ebike</td><td>-0.0076</td><td>-0.098</td><td>12.6</td><td>0</td><td>-0.0108</td><td>-0.296</td><td>18.3</td><td>0</td></tr>
+<tr class=biostyle><td>tau_1_diff_2</td><td>Beta_passengers 4</td><td>-0.0314</td><td>-0.631</td><td>19.1</td><td>0</td><td>-0.0343</td><td>-0.647</td><td>18.4</td><td>0</td></tr>
+<tr class=biostyle><td>tau_1_diff_2</td><td>Beta_passengers_2_mean</td><td>-0.0195</td><td>-0.286</td><td>15.7</td><td>0</td><td>-0.0232</td><td>-0.33</td><td>15.4</td><td>0</td></tr>
+<tr class=biostyle><td>tau_1_diff_2</td><td>Beta_passengers_2_s</td><td>-0.0169</td><td>-0.252</td><td>16.1</td><td>0</td><td>-0.0175</td><td>-0.264</td><td>16.4</td><td>0</td></tr>
+<tr class=biostyle><td>tau_1_diff_2</td><td>tau_1</td><td>-0.0246</td><td>-0.539</td><td>21.2</td><td>0</td><td>-0.0279</td><td>-0.6</td><td>20.6</td><td>0</td></tr>
+</table>
+<p>Smallest eigenvalue: 6.14334</p>
+<p>Largest eigenvalue: 443551</p>
+<p>Condition number: 72200.4</p>
+</html>
