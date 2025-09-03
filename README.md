@@ -9,14 +9,6 @@ by Martin Dejaeghere, 2025.
 
 ## Repository Structure
 
-- [data/](data/)
-  - [streets_lyon.geojson](data/streets_lyon.geojson)
-  - [traffic_signals.geojson](data/traffic_signals.geojson)
-  - [tram.gpkg](data/tram.gpkg)
-  - [tram_crossing.geojson](data/tram_crossing.geojson)
-  - [tram_crossing_paris.gpkg](data/tram_crossing_paris.gpkg)
-  - [tram_tracks_lyon.gpkg](data/tram_tracks_lyon.gpkg)
-  - [tram_tracks_paris.gpkg](data/tram_tracks_paris.gpkg)
 - [tables/](tables/)
   - [table_latex_output.tex](tables/table_latex_output.tex)
 - [notebooks/](notebooks/)
