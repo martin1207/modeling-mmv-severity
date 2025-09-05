@@ -9,9 +9,10 @@ by Martin De Jaeghere and Silvia Varotto, 2025.
 
 ## Repository Structure
 
+📁 (Estimation_results)
 
-- [tests.ipynb](tests.ipynb)
-- [requirements.txt](requirements.txt)
+- [tests](tests.ipynb) # desc stats and testing
+- [requirements](requirements.txt)
 - [README.md](README.md)
 
 
