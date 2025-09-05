@@ -3,18 +3,14 @@
 This repository contains the code, data processing scripts, and materials related to the article:
 
 **"Modeling the Injury Severity of Micro-Mobility Vehicle Riders in Paris and Lyon"**  
-by Martin Dejaeghere, 2025.
+by Martin De Jaeghere and Silvia Varotto, 2025.
 
 ---
 
 ## Repository Structure
 
-- [tables/](tables/)
-  - [table_latex_output.tex](tables/table_latex_output.tex)
-- [notebooks/](notebooks/)
-  - [tests.ipynb](notebooks/tests.ipynb)
-- [data_test/](data_test/)
-  - [test_données.csv](data_test/test_données.csv)
+
+- [tests.ipynb](tests.ipynb)
 - [requirements.txt](requirements.txt)
 - [README.md](README.md)
 
