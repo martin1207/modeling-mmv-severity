@@ -5,16 +5,6 @@ This repository contains the code, data processing scripts, and materials relate
 **"Modeling the Injury Severity of Micro-Mobility Vehicle Riders in Paris and Lyon"**  
 by Martin De Jaeghere and Silvia Varotto, 2025.
 
----
-
-## Repository Structure
-
-📁 (Estimation_results)
-
-- [tests](tests.ipynb) # desc stats and testing
-- [requirements](requirements.txt)
-- [README.md](README.md)
-
 
 ---
 
@@ -36,3 +26,12 @@ by Martin De Jaeghere and Silvia Varotto, 2025.
     pip install -r requirements.txt
 
 
+
+---
+## Repository Structure
+
+📁 (Estimation_results)
+
+- [tests](tests.ipynb) # desc stats and testing
+- [requirements](requirements.txt)
+- [README.md](README.md)
