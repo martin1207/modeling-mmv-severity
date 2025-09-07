@@ -35,3 +35,14 @@ by Martin De Jaeghere and Silvia Varotto, 2025.
 - [tests](tests.ipynb) # desc stats and testing
 - [requirements](requirements.txt)
 - [README.md](README.md)
+
+
+---
+## Data explanation
+
+
+The related dataset ([https://www.data.gouv.fr/fr/datasets/bases-de-donnees-annuelles-des-accidents-corporels-de-la-circulation-routiere-annees-de-2005-a-2023/#/resources](https://www.data.gouv.fr/fr/datasets/bases-de-donnees-annuelles-des-accidents-corporels-de-la-circulation-routiere-annees-de-2005-a-2023/#/resources)) contains detailed information on traffic accidents (when, where, and under what conditions crashes occur), plus details on vehicles and people involved. 
+
+![](docs/table_mapping.png)
+
+The field explanation (English version) can be found in this file: [metadata](docs/accidents_metadata_en.md). (Original French version can be found in this [pdf](https://www.onisr.securite-routiere.gouv.fr/sites/default/files/2024-10/Description%20des%20bases%20de%20donn%C3%A9es%20annuelles.pdf))
