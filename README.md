@@ -1,8 +1,8 @@
 # Modeling the Injury Severity of Micro-Mobility Vehicle Riders 🛴🚲💥
 
-This repository contains the code, data processing scripts, and materials related to the article:
+This repository contains the code, data processing scripts, and materials related to the pre-print:
 
-**"Modeling the Injury Severity of Micro-Mobility Vehicle Riders in Paris and Lyon"**  
+**"Modeling the injury severity of riders and pedestrians in micro-mobility vehicle crashes"**  
 by Martin De Jaeghere and Silvia Varotto, 2025.
 
 
@@ -16,23 +16,20 @@ by Martin De Jaeghere and Silvia Varotto, 2025.
 
 2. Create and activate a virtual environment (recommended):
    ```bash
-    python -m venv venv
-    source venv/bin/activate   # on Linux/Mac
-    venv\Scripts\activate      # on Windows
+    python -m venv mmv_severity_env
+    source mmv_severity_env/bin/activate   # on Linux/Mac
+    mmv_severity_env\Scripts\activate      # on Windows
 
 
 3. Install dependencies:
     ```bash
     pip install -r requirements.txt
-
-
-
 ---
 ## Repository Structure
 
-📁 (Estimation_results)
-
+- [Data loading, wrangling and cleaning](loading_and_cleaning_data.ipynbt) # Create the dataset
 - [tests](tests.ipynb) # desc stats and testing
+- [Model development](models.ipynb) # Estimation of the models and conduction of the out-of-sample validation
 - [requirements](requirements.txt)
 - [README.md](README.md)
 
@@ -41,7 +38,7 @@ by Martin De Jaeghere and Silvia Varotto, 2025.
 ## Data explanation
 
 
-The related dataset ([https://www.data.gouv.fr/fr/datasets/bases-de-donnees-annuelles-des-accidents-corporels-de-la-circulation-routiere-annees-de-2005-a-2023/#/resources](https://www.data.gouv.fr/fr/datasets/bases-de-donnees-annuelles-des-accidents-corporels-de-la-circulation-routiere-annees-de-2005-a-2023/#/resources)) contains detailed information on traffic accidents (when, where, and under what conditions crashes occur), plus details on vehicles and people involved. 
+The [dataset](https://www.data.gouv.fr/fr/datasets/bases-de-donnees-annuelles-des-accidents-corporels-de-la-circulation-routiere-annees-de-2005-a-2023/#/resources)) contains detailed information on traffic accidents (when, where, and under what conditions crashes occur), plus details on vehicles and people involved. 
 
 ![](docs/table_mapping.png)
 
