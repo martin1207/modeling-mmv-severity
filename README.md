@@ -5,7 +5,8 @@ This repository contains the code, data processing scripts, and materials relate
 **"Modeling the injury severity of riders and pedestrians in micro-mobility vehicle crashes"**  
 by Martin De Jaeghere and Silvia Varotto, 2025.
 
-
+It enables to retrieve the results presented in the paper,load the models,  update with newly released data, test other model configurations.
+This code can easily be adapted to other cities, vehicles, years.
 ---
 
 ## How to use the code
