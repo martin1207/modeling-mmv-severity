@@ -5,8 +5,8 @@ This repository contains the code, data processing scripts, and materials relate
 **"Modeling the injury severity of riders and pedestrians in micro-mobility vehicle crashes"**  
 by Martin De Jaeghere and Silvia Varotto, 2025.
 
-It enables to retrieve the results presented in the paper,load the models,  update with newly released data, test other model configurations.
-This code can easily be adapted to other cities, vehicles, years.
+The repository allows you to reproduce the results of the study, adapt the analysis to other vehicles or cities, integrate newly released crash data, and refine model configurations.
+
 ---
 
 ## How to use the code
@@ -29,8 +29,8 @@ This code can easily be adapted to other cities, vehicles, years.
 ## Repository Structure
 
 - [Data loading, wrangling and cleaning](loading_and_cleaning_data.ipynbt) # Create the dataset
-- [tests](tests.ipynb) # desc stats and testing
-- [Model development](models.ipynb) # Estimation of the models and conduction of the out-of-sample validation
+- [tests](desc_stats_and_bivariate_test.ipynb) # desc stats and testing
+- [Model development](modeling_development.ipynb) # Estimation of the models and conduction of the out-of-sample validation
 - [requirements](requirements.txt)
 - [README.md](README.md)
 
