@@ -1,6 +1,6 @@
 # Modeling the Injury Severity of Micro-Mobility Vehicle Riders 🛴🚲💥
 
-This repository contains the code, data processing scripts, and materials related to the pre-print:
+This repository contains the code related to the pre-print:
 
 **"Modeling the injury severity of riders and pedestrians in micro-mobility vehicle crashes"**  
 by Martin De Jaeghere and Silvia Varotto, 2025.
