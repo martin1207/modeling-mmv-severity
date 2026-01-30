@@ -1,7 +1,6 @@
 numpy==2.2.4
 pandas==2.2.3
 scipy==1.15.2
-scikit-learn==1.6.1
 biogeme==3.2.14
 matplotlib
 geopandas==1.0.1

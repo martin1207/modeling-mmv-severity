@@ -28,10 +28,10 @@ The repository allows you to reproduce the results of the study, adapt the analy
 ---
 ## Repository Structure
 
-- [Data loading, wrangling and cleaning](loading_and_cleaning_data.ipynbt) # Create the dataset
-- [tests](desc_stats_and_bivariate_test.ipynb) # desc stats and testing
+- [Data loading, wrangling and cleaning](loading_and_cleaning_data.ipynb) # Create the dataset
+- [Descriptive statistics](desc_stats_and_bivariate_test.ipynb) # desc stats and testing
 - [Model development](modeling_development.ipynb) # Estimation of the models and conduction of the out-of-sample validation
-- [requirements](requirements.txt)
+- [Requirements](requirements.txt) # Required libraries
 - [README.md](README.md)
 
 
@@ -39,7 +39,7 @@ The repository allows you to reproduce the results of the study, adapt the analy
 ## Data explanation
 
 
-The [dataset](https://www.data.gouv.fr/fr/datasets/bases-de-donnees-annuelles-des-accidents-corporels-de-la-circulation-routiere-annees-de-2005-a-2023/#/resources)) contains detailed information on traffic accidents (when, where, and under what conditions crashes occur), plus details on vehicles and people involved. 
+The [dataset](https://www.data.gouv.fr/fr/datasets/bases-de-donnees-annuelles-des-accidents-corporels-de-la-circulation-routiere-annees-de-2005-a-2023/#/resources) contains detailed information on traffic accidents (when, where, and under what conditions crashes occur), plus details on vehicles and people involved. 
 
 ![](docs/table_mapping.png)
 
