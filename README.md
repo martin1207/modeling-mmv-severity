@@ -48,13 +48,13 @@ The repository allows you to reproduce the results of the study, adapt the analy
 The notebooks are designed to be run in the following order. Each one produces files that the next one consumes, so do not skip steps.
 
 1. [Data loading, wrangling and cleaning](loading_and_cleaning_data.ipynb)
-   Downloads the raw French national crash database, merges the four sub-tables (characteristics, vehicles, places, users), restricts the data to the Paris and Lyon metropolitan areas, joins road-network attributes from OpenStreetMap, and writes the cleaned dataset to `final_processed_crash_dataset_2.csv`.
+   Downloads the raw French national crash database, merges the four sub-tables (characteristics, vehicles, places, users), restricts the data to the Paris and Lyon metropolitan areas, joins road-network attributes from OpenStreetMap, and writes the cleaned dataset to `final_processed_crash_dataset.csv`.
 
 2. [Descriptive statistics and bivariate tests](desc_stats_and_bivariate_test.ipynb)
-   Reads `final_processed_crash_dataset_2.csv`, produces summary statistics and bivariate tests (Chi-square, ANOVA, Kruskal-Wallis), and writes the result table to `descriptive_statistics_and_bivariate_tests.csv`.
+   Reads `final_processed_crash_dataset.csv`, produces summary statistics and bivariate tests (Chi-square, ANOVA, Kruskal-Wallis), and writes the result table to `descriptive_statistics_and_bivariate_tests.csv`.
 
 3. [Model development](modeling_development.ipynb)
-   Reads `final_processed_crash_dataset_2.csv`, estimates the discrete-choice models (logit, ordered probit/logit, mixed logit) with [Biogeme](https://biogeme.epfl.ch/), runs the likelihood-ratio tests, and performs out-of-sample validation.
+   Reads `final_processed_crash_dataset.csv`, estimates the discrete-choice models (logit, ordered probit/logit, mixed logit) with [Biogeme](https://biogeme.epfl.ch/), runs the likelihood-ratio tests, and performs out-of-sample validation.
 
 Other files:
 - [requirements.txt](requirements.txt) — required Python packages
