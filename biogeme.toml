@@ -13,7 +13,7 @@ only_robust_stats = "True" # bool: "True" if only the robust statistics need to 
                            # Rao-Cramer bound are also reported.
 generate_html = "True" # bool: "True" if the HTML file with the results must be
                        # generated.
-generate_pickle = "True" # bool: "True" if the pickle file with the results must be
+generate_pickle = "False" # bool: "True" if the pickle file with the results must be
                          # generated.
 
 [MonteCarlo]
