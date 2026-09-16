@@ -1,3 +1,4 @@
+# Tested with Python 3.13.2 (Python 3.13+ required).
 numpy==2.2.4
 pandas==2.2.3
 scipy==1.15.2
@@ -5,8 +6,6 @@ biogeme==3.2.14
 matplotlib
 geopandas==1.0.1
 shapely
+osmnx
 jupyter
 ipykernel
-
-
-
